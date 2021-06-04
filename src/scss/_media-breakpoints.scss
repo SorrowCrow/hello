@@ -1,0 +1,163 @@
+@media only screen and (min-width: 768px) {
+  .block {
+    padding: 0px 213px 0 55px;
+    max-width: 1092px;
+    font-size: 20px;
+  }
+  .benefits {
+    &__item {
+      padding-top: 80px;
+    }
+    &__svg {
+      padding-bottom: 30px;
+    }
+    &__clock {
+      @include wh(50px, 58px);
+    }
+    &__shield {
+      @include wh(46px, 70px);
+    }
+    &__heart {
+      @include wh(56px, 70px);
+    }
+  }
+  .whoConducts {
+    .sub-text {
+      font-size: 40px;
+    }
+    .sub-text:before {
+      top: 10px;
+      bottom: 7px;
+    }
+  }
+  .what {
+    .secondary-title {
+      font-size: 25px;
+    }
+    .sub-text {
+      padding-top: 61px;
+      padding-bottom: 72px;
+    }
+    svg {
+      margin-right: 25px;
+      top: -7px;
+    }
+  }
+  .who {
+    background-color: $background-gray;
+    &__item {
+      min-width: 500px;
+    }
+    .sub-text {
+      padding-top: 61px;
+      padding-bottom: 112px;
+    }
+    &__axioma {
+      @include wh(305px, 71px);
+    }
+    &__axioma:before {
+      top: 12%;
+      height: 77%;
+    }
+    &__itsm {
+      @include wh(470px, 86px);
+      top: 0px;
+    }
+    &__itsm:before {
+      top: 12%;
+      height: 63%;
+    }
+  }
+  .whatTheySay {
+    .sub-text {
+      margin-top: 55px;
+      margin-bottom: 97px;
+      font-size: 40px;
+    }
+    .sub-text:before {
+      top: 12px;
+      bottom: 6px;
+    }
+    &__image {
+      @include wh(143px, 143px);
+    }
+    &__image-crop {
+      @include wh(100px, 100px);
+    }
+    svg {
+      @include wh(60px, 60px);
+      bottom: 100px;
+    }
+    .nextBtn {
+      left: auto;
+      right: 100px;
+    }
+    .prevBtn {
+      right: 20px;
+    }
+  }
+  .contactUs {
+    input {
+      margin-top: 30px;
+    }
+    textarea {
+      height: calc(100% - 30px);
+    }
+    button {
+      width: 200px;
+    }
+  }
+  .footer {
+    &__address {
+      font-size: 25px;
+      padding-bottom: 183px;
+    }
+    &__copyright {
+      font-size: 18px;
+    }
+    &__contact {
+      font-size: 40px;
+      padding-bottom: 183px;
+    }
+    &__address,
+    &__contact,
+    &__copyright {
+      min-width: 500px;
+    }
+  }
+  .contactUsButton {
+    @include wh(176px, 176px);
+    right: 31px;
+    bottom: 50px;
+    top: auto;
+    &__background {
+      @include wh(124px, 124px);
+    }
+    &__text {
+      @include wh(176px, 176px);
+      font-size: 20px;
+      letter-spacing: 0.05em;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .whatTheySay {
+    .nextBtn {
+      left: 570px;
+      right: auto;
+    }
+    .prevBtn {
+      left: 650px;
+      right: auto;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .benefits {
+    &__item {
+      max-width: 490px;
+    }
+  }
+}
