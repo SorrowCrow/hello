@@ -1,123 +1,12 @@
 .block {
     padding: 0px 40px;
     font-size: 15px;
-  }
-
-// .benefits {
-//     background-color: $background-gray;
-//     &__item {
-//         padding-top: 42px;
-//     }
-//     .secondary-title:before {
-//         @extend .primary-text:before;
-//     }
-//     &__firstRow {
-//         padding-bottom: 19px;
-//     }
-//     &__secondRow {
-//         padding-bottom: 13px;
-//     }
-//     &__clock {
-//         @include wh(40px, 45px);
-//     }
-//     &__shield {
-//         @include wh(40px, 62px);
-//     }
-//     &__heart {
-//         @include wh(40px, 50px);
-//     }
-// }
-// .whoConducts {
-//     background-image: url("../images/Frame\ 11-1.jpg");
-//     background-size: contain;
-//     .sub-text {
-//         max-width: 1090px;
-//     }
-//     .sub-text:before {
-//         @extend .primary-text:before;
-//     }
-// }
-// .what {
-//     .secondary-title {
-//         font-size: 17px;
-//     }
-//     .sub-text {
-//         padding-top: 40px;
-//         padding-bottom: 40px;
-//         max-width: 590px;
-//     }
-//     svg {
-//         top: -5px;
-//         position: relative;
-//         @include wh(27px, 25px);
-//     }
-// }
-// .who {
-//     background-color: $background-gray;
-//     .sub-text {
-//         padding-top: 44px;
-//         padding-bottom: 70px;
-//         max-width: 1080px;
-//     }
-//     &__item {
-//         max-width: 470px;
-//     }
-//     &__axioma {
-//         @include wh(200px, 46px);
-//     }
-//     &__axioma:before,
-//     &__itsm:before {
-//         @extend .primary-text:before;
-//     }
-//     &__itsm {
-//         @include wh(295px, 42px);
-//         top: 5px;
-//     }
-//     &__itsm:before {
-//         top: 1%;
-//         height: 79%;
-//     }
-// }
-// .whatTheySay {
-//     .sub-text {
-//         color: $primary;
-//         margin: 47px 0 45px 10px;
-//         max-width: 1090px;
-//     }
-//     .sub-text:before {
-//         @extend .primary-text:before;
-//     }
-//     &__image-crop {
-//         @include wh(60px, 60px);
-//         transform: rotate(45deg);
-//     }
-//     &__image {
-//         background-size: contain;
-//         @include wh(86px, 86px);
-//         left: -22%;
-//         top: -22%;
-//         transform: rotate(-45deg);
-//     }
-//     svg {
-//         @include wh(44px, 44px);
-//         bottom: -37px;
-//         z-index: 100;
-//     }
-//     svg:hover {
-//         @extend .pointer;
-//     }
-//     .nextBtn {
-//         left: 50px;
-//     }
-//     .prevBtn {
-//         transform: rotate(180deg);
-//         right: 50px;
-//     }
-//     .slick-dots li.slick-active button::before {
-//         color: $pink;
-//         opacity: 1;
-//     }
-// }
+    &__grid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 100px;
+    }
+}
 // .contactUs {
 //     background-image: url("../images/Group\ 23.jpg");
 //     background-size: contain;

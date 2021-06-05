@@ -1,32 +1,25 @@
 <template>
-    <header class="hero mx-auto">
+    <header class="hero">
         <div class="hero__logo mx-auto">
             <svg>
                 <use xlink:href="#logo" />
             </svg>
         </div>
         <div class="block mx-auto">
-            <div class="col-12 primary-text">
-                Verify<br />Developers<br />Skills
-            </div>
-            <div class="col-12 sub-text">
+            <div class="primary-text">Verify<br />Developers<br />Skills</div>
+            <div class="sub-text">
                 Hire talents faster and better with our technical interviews
             </div>
-            <div class="col-12">
-                <svg id="arrowToBenefits" class="pointer block__arrow">
-                    <use xlink:href="#arrowBenefits" />
-                </svg>
-            </div>
+            <svg id="arrowToBenefits" class="pointer block__arrow">
+                <use xlink:href="#arrowBenefits" />
+            </svg>
         </div>
     </header>
 </template>
 
 <script>
 export default {
-    name: "firstBlock",
-    // props: {
-    //   msg: String
-    // }
+    name: "firstBlock"
 };
 </script>
 

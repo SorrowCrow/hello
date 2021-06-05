@@ -3,16 +3,17 @@
     line-height: 100%;
     text-transform: uppercase;
     color: $primary;
+    &:before {
+        position: absolute;
+        content: "";
+        left: -20px;
+        top: 5px;
+        bottom: 5px;
+        @include wh(1px, auto);
+        background-color: #ff6e6e;
+    }
 }
-.primary-text:before {
-    position: absolute;
-    content: "";
-    left: -20px;
-    top: 5px;
-    bottom: 5px;
-    @include wh(1px, auto);
-    background-color: #ff6e6e;
-}
+
 .sub-text {
     font-size: 20px;
     line-height: 120%;
@@ -29,7 +30,7 @@
     font-weight: bold;
     font-size: 20px;
     text-transform: initial;
-    line-height: 120%;
+    @extend .primary-text;
 }
 .secondary-sub {
     font-size: inherit;
