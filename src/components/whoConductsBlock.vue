@@ -1,10 +1,13 @@
 <template>
-    <div class="block mx-auto overflow-hidden">
-        <div class="description">{ who conducts the interviews }</div>
-        <div class="secondary-title">
-            Our verification process is designed by the top programmers in the
-            industry. It has been polished on a large number of candidates.
-            These same programmers will interview your candidates.
+    <div class="whoConducts">
+        <div class="block mx-auto overflow-hidden">
+            <div class="description">{ who conducts the interviews }</div>
+            <div class="secondary-title">
+                Our verification process is designed by the top programmers in
+                the industry. It has been polished on a large number of
+                candidates. These same programmers will interview your
+                candidates.
+            </div>
         </div>
     </div>
 </template>
@@ -16,9 +19,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.block {
+.whoConducts {
     background-image: url("../assets/Frame\ 11-1.jpg");
     background-size: contain;
+}
+.block {
     padding-top: 70px;
     padding-bottom: 78px;
 

@@ -1,56 +1,59 @@
 <template>
-    <div class="block mx-auto overflow-hidden" id="benefits">
-        <div class="description">{ benefits of our service }</div>
-        <div class="block__grid">
-            <div class="block__item">
-                <svg class="block__clock block__firstRow">
-                    <use xlink:href="#benefits-clock" />
-                </svg>
-                <div class="secondary-title">
-                    Free your senior developers from the burden of screening
-                    candidates
+    <div class="benefits">
+        <div class="block mx-auto overflow-hidden" id="benefits">
+            <div class="description">{ benefits of our service }</div>
+            <div class="block__grid">
+                <div class="block__item">
+                    <svg class="block__clock block__firstRow">
+                        <use xlink:href="#benefits-clock" />
+                    </svg>
+                    <div class="secondary-title">
+                        Free your senior developers from the burden of screening
+                        candidates
+                    </div>
+                    <div class="secondary-sub">
+                        Your team can now focus on creating added value for your
+                        business.
+                    </div>
                 </div>
-                <div class="secondary-sub">
-                    Your team can now focus on creating added value for your
-                    business.
+                <div class="block__item">
+                    <svg class="block__clock block__firstRow">
+                        <use xlink:href="#benefits-like" />
+                    </svg>
+                    <div class="secondary-title">
+                        Dramatically increase the throughput of your interview
+                        process
+                    </div>
+                    <div class="secondary-sub">
+                        Out team already includes more than 10 interview
+                        engineers who are availavle 7 days a week
+                    </div>
                 </div>
-            </div>
-            <div class="block__item">
-                <svg class="block__clock block__firstRow">
-                    <use xlink:href="#benefits-like" />
-                </svg>
-                <div class="secondary-title">
-                    Dramatically increase the throughput of your interview
-                    process
+                <div class="block__item">
+                    <svg class="block__shield block__secondRow">
+                        <use xlink:href="#benefits-shield" />
+                    </svg>
+                    <div class="secondary-title">
+                        Minimise the risk of erroneous hiring with
+                    </div>
+                    <div class="secondary-sub">
+                        A reliable test of the candidates' ability to solve real
+                        problems Evaluation of the personal qualities of
+                        candidates
+                    </div>
                 </div>
-                <div class="secondary-sub">
-                    Out team already includes more than 10 interview engineers
-                    who are availavle 7 days a week
-                </div>
-            </div>
-            <div class="block__item">
-                <svg class="block__shield block__secondRow">
-                    <use xlink:href="#benefits-shield" />
-                </svg>
-                <div class="secondary-title">
-                    Minimise the risk of erroneous hiring with
-                </div>
-                <div class="secondary-sub">
-                    A reliable test of the candidates' ability to solve real
-                    problems Evaluation of the personal qualities of candidates
-                </div>
-            </div>
-            <div class="block__item">
-                <svg class="block__heart block__secondRow">
-                    <use xlink:href="#benefits-heart" />
-                </svg>
-                <div class="secondary-title">
-                    Minimise the risk of losing good candidates due to
-                </div>
-                <div class="secondary-sub">
-                    The need to wait for the interviewer to be free. Too time
-                    consuming homeworks. Misinterpreting the results of
-                    interviews or tests
+                <div class="block__item">
+                    <svg class="block__heart block__secondRow">
+                        <use xlink:href="#benefits-heart" />
+                    </svg>
+                    <div class="secondary-title">
+                        Minimise the risk of losing good candidates due to
+                    </div>
+                    <div class="secondary-sub">
+                        The need to wait for the interviewer to be free. Too
+                        time consuming homeworks. Misinterpreting the results of
+                        interviews or tests
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,10 +67,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.benefits {
+    background-color: $background-gray;
+}
 .block {
     padding-top: 70px;
     padding-bottom: 73px;
-    background-color: $background-gray;
     div {
         position: relative;
     }

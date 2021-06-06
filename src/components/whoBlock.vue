@@ -1,31 +1,34 @@
 <template>
-    <div class="block mx-auto overflow-hidden">
-        <div class="description">{ who we are }</div>
-        <div class="sub-text">
-            The company was created by combining the efforts of two enterprises.
-            We have accumulated a wealth of experience in selecting programmers
-            and building strong teams.
-        </div>
-        <div class="block__grid mx-auto">
-            <div class="block__item mx-auto">
-                <div class="block__axioma">
-                    <svg class="block__axioma">
-                        <use xlink:href="#axioma-logo" />
-                    </svg>
-                </div>
-                <div class="secondary-sub">
-                    11 years in the IT outsourcing market, more than 30 complex
-                    projects of medium and large size have been developed.
-                </div>
+    <div class="who">
+        <div class="block mx-auto overflow-hidden">
+            <div class="description">{ who we are }</div>
+            <div class="sub-text">
+                The company was created by combining the efforts of two
+                enterprises. We have accumulated a wealth of experience in
+                selecting programmers and building strong teams.
             </div>
-            <div class="block__item mx-auto">
-                <div class="block__itsm">
-                    <svg class="block__itsm">
-                        <use xlink:href="#itsm-logo" />
-                    </svg>
+            <div class="block__grid mx-auto">
+                <div class="block__item mx-auto">
+                    <div class="block__axioma">
+                        <svg class="block__axioma">
+                            <use xlink:href="#axioma-logo" />
+                        </svg>
+                    </div>
+                    <div class="secondary-sub">
+                        11 years in the IT outsourcing market, more than 30
+                        complex projects of medium and large size have been
+                        developed.
+                    </div>
                 </div>
-                <div class="secondary-sub">
-                    6 years in the IT recruiting market.
+                <div class="block__item mx-auto">
+                    <div class="block__itsm">
+                        <svg class="block__itsm">
+                            <use xlink:href="#itsm-logo" />
+                        </svg>
+                    </div>
+                    <div class="secondary-sub">
+                        6 years in the IT recruiting market.
+                    </div>
                 </div>
             </div>
         </div>
@@ -39,8 +42,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.block {
+.who {
     background-color: $background-gray;
+}
+.block {
     padding-top: 70px;
     padding-bottom: 3px;
     .sub-text {
