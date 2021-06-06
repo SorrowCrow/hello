@@ -18,8 +18,23 @@
 </template>
 
 <script>
+import $ from "jquery";
+
+$(document).ready(function () {
+    $(function () {
+        $("#arrowToBenefits").click(function () {
+            $([document.documentElement, document.body]).animate(
+                {
+                    scrollTop: $("#benefits").offset().top,
+                },
+                500
+            );
+        });
+    });
+});
+
 export default {
-    name: "firstBlock"
+    name: "firstBlock",
 };
 </script>
 

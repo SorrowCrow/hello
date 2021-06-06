@@ -1,5 +1,5 @@
 <template>
-    <div class="block overflow-hidden" id="benefits">
+    <div class="block mx-auto overflow-hidden" id="benefits">
         <div class="description">{ benefits of our service }</div>
         <div class="block__grid">
             <div class="block__item">

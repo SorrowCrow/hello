@@ -1,5 +1,5 @@
 <template>
-    <div class="block overflow-hidden">
+    <div class="block mx-auto overflow-hidden">
         <div class="description">{ who we are }</div>
         <div class="sub-text">
             The company was created by combining the efforts of two enterprises.
@@ -42,7 +42,7 @@ export default {
 .block {
     background-color: $background-gray;
     padding-top: 70px;
-    padding-bottom: 70px;
+    padding-bottom: 3px;
     .sub-text {
         padding-top: 44px;
         padding-bottom: 70px;
@@ -50,6 +50,7 @@ export default {
     }
     &__item {
         max-width: 470px;
+        padding-bottom: 67px;
     }
     &__axioma,
     &__itsm {

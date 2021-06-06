@@ -28,5 +28,27 @@ export default {
         whoBlock,
         whatTheySayBlock,
     },
+    mounted() {
+        // let jquery = document.createElement("script");
+        // let slick = document.createElement("script");
+        // let slickcss = document.createElement("link");
+        // jquery.setAttribute(
+        //     "src",
+        //     "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        // );
+        // slick.setAttribute(
+        //     "src",
+        //     "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        // );
+        // slickcss.setAttribute(
+        //     "rel",
+        //     "stylesheet",
+        //     "href",
+        //     "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        // );
+        // document.head.appendChild(jquery);
+        // document.head.appendChild(slick);
+        // document.head.appendChild(slickcss);
+    },
 };
 </script>

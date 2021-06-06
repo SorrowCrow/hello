@@ -1,5 +1,5 @@
 <template>
-    <div class="block overflow-hidden">
+    <div class="block mx-auto overflow-hidden">
         <div class="description">{ who conducts the interviews }</div>
         <div class="secondary-title">
             Our verification process is designed by the top programmers in the

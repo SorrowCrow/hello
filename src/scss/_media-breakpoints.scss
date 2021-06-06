@@ -50,19 +50,6 @@
     }
 }
 
-@media only screen and (min-width: 992px) {
-    .whatTheySay {
-        .nextBtn {
-            left: 570px;
-            right: auto;
-        }
-        .prevBtn {
-            left: 650px;
-            right: auto;
-        }
-    }
-}
-
 @media only screen and (min-width: 1200px) {
     .block {
         &__item {

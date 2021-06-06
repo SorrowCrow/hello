@@ -1,5 +1,5 @@
 <template>
-    <div class="block overflow-hidden">
+    <div class="block mx-auto overflow-hidden">
         <div class="col-12 description">{ what do we check }</div>
         <div class="col-12 sub-text">
             Our approach to technical interviews allows us to verify:
@@ -65,7 +65,7 @@ export default {
 <style lang="scss" scoped>
 .block {
     padding-top: 70px;
-    padding-bottom: 87px;
+    padding-bottom: 57px;
     .sub-text {
         padding-top: 40px;
         padding-bottom: 40px;
