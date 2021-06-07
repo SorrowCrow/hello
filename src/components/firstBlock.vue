@@ -90,7 +90,7 @@ export default {
         background-size: contain;
         &__logo {
             padding-top: 50px;
-            padding-left: 46px;
+            padding-left: 15px;
             svg {
                 @include wh(62px, 57px);
             }
