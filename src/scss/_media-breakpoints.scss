@@ -4,50 +4,6 @@
         max-width: 1092px;
         font-size: 20px;
     }
-
-    .contactUs {
-        input {
-            margin-top: 30px;
-        }
-        textarea {
-            height: calc(100% - 30px);
-        }
-        button {
-            width: 200px;
-        }
-    }
-    .footer {
-        &__address {
-            font-size: 25px;
-            padding-bottom: 183px;
-        }
-        &__copyright {
-            font-size: 18px;
-        }
-        &__contact {
-            font-size: 40px;
-            padding-bottom: 183px;
-        }
-        &__address,
-        &__contact,
-        &__copyright {
-            min-width: 500px;
-        }
-    }
-    .contactUsButton {
-        @include wh(176px, 176px);
-        right: 31px;
-        bottom: 50px;
-        top: auto;
-        &__background {
-            @include wh(124px, 124px);
-        }
-        &__text {
-            @include wh(176px, 176px);
-            font-size: 20px;
-            letter-spacing: 0.05em;
-        }
-    }
 }
 
 @media only screen and (min-width: 1200px) {

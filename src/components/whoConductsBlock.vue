@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 .whoConducts {
-    background-image: url("../assets/Frame\ 11-1.jpg");
+    background-image: url("../assets/Frame\ 11-1.png");
     background-size: contain;
 }
 .block {

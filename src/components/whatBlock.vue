@@ -1,53 +1,53 @@
 <template>
     <div class="block mx-auto overflow-hidden">
-        <div class="col-12 description">{ what do we check }</div>
-        <div class="col-12 sub-text">
+        <div class="description">{ what do we check }</div>
+        <div class="sub-text">
             Our approach to technical interviews allows us to verify:
         </div>
         <div class="block__grid">
-            <div class="col-md-5 col-sm-12 pb-5 what__item">
+            <div class="what__item">
                 <svg>
                     <use xlink:href="#logo" />
                 </svg>
-                <div class="col-11 secondary-title">
+                <div class="secondary-title">
                     Ability to solve problems in close to real conditions
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12 pb-5 what__item">
+            <div class="what__item">
                 <svg>
                     <use xlink:href="#logo" />
                 </svg>
-                <div class="col-11 secondary-title">
+                <div class="secondary-title">
                     How a candidate behaves in a time pressured environment
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12 pb-5 what__item">
+            <div class="what__item">
                 <svg>
                     <use xlink:href="#logo" />
                 </svg>
-                <div class="col-11 secondary-title">
+                <div class="secondary-title">
                     Ability to perform a task from the first time
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12 pb-5 what__item">
+            <div class="what__item">
                 <svg>
                     <use xlink:href="#logo" />
                 </svg>
-                <div class="col-11 secondary-title">Theoretical knowledge</div>
+                <div class="secondary-title">Theoretical knowledge</div>
             </div>
-            <div class="col-md-5 col-sm-12 pb-5 pb-md-0 what__item">
+            <div class="pb-md-0 what__item">
                 <svg>
                     <use xlink:href="#logo" />
                 </svg>
-                <div class="col-11 secondary-title">
+                <div class="secondary-title">
                     Ability to estimate the task in time
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12 what__item">
+            <div class="what__item">
                 <svg>
                     <use xlink:href="#logo" />
                 </svg>
-                <div class="col-11 secondary-title">
+                <div class="secondary-title">
                     Knowledge of tools, frameworks, ability to apply
                     architectular patterns
                 </div>
@@ -94,7 +94,6 @@ export default {
         }
         .secondary-title {
             font-size: 25px;
-            
         }
         svg {
             margin-right: 30px;

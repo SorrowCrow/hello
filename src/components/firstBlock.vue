@@ -1,5 +1,5 @@
 <template>
-    <header class="hero">
+    <header class="hero overflow-hidden">
         <div class="hero__logo mx-auto">
             <svg>
                 <use xlink:href="#logo" />
@@ -85,14 +85,9 @@ export default {
     }
 }
 
-@media only screen and (min-width: 576px) {
-    .hero {
-        background-size: contain;
-    }
-}
-
 @media only screen and (min-width: 768px) {
     .hero {
+        background-size: contain;
         &__logo {
             padding-top: 50px;
             padding-left: 46px;
