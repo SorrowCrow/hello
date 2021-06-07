@@ -1,4 +1,4 @@
-# hello
+# vue-verify-dev
 
 ## Project setup
 ```
