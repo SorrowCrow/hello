@@ -1,27 +1,8 @@
 body {
-  font-family: $default-font;
-  margin: 0;
+    font-family: $default-font;
+    margin: 0;
 }
 
 .pointer {
-  cursor: pointer;
-}
-
-.transparent {
-  background-color: transparent;
-}
-
-@media only screen and (min-width: 768px) {
-  .container-xl {
-    padding: 105px 54px;
-    padding-right: 210px;
-    max-width: 1280px;
-    font-size: 20px;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .container-xl {
-    padding-right: 165px;
-  }
+    cursor: pointer;
 }

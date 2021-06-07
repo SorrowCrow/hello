@@ -8,7 +8,7 @@
                 selecting programmers and building strong teams.
             </div>
             <div class="block__grid mx-auto">
-                <div class="block__item mx-auto">
+                <div class="block__item">
                     <div class="block__axioma">
                         <svg class="block__axioma">
                             <use xlink:href="#axioma-logo" />
@@ -20,7 +20,7 @@
                         developed.
                     </div>
                 </div>
-                <div class="block__item mx-auto">
+                <div class="block__item">
                     <div class="block__itsm">
                         <svg class="block__itsm">
                             <use xlink:href="#itsm-logo" />
@@ -80,7 +80,7 @@ export default {
         padding-top: 119px;
         padding-bottom: 127px;
         &__item {
-            min-width: 500px;
+            margin: inherit auto;
         }
         .sub-text {
             padding-top: 61px;

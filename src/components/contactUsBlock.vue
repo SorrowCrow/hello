@@ -69,6 +69,7 @@ export default {
         font-size: 20px;
         margin-bottom: 20px;
         padding: 16.5px 10px 16.5px 34px;
+        font-family: $default-font;
     }
     textarea {
         @extend input;

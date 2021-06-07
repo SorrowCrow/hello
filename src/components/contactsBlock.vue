@@ -86,6 +86,7 @@ export default {
     @include wh(100px, 100px);
     top: 225px;
     right: 22px;
+    z-index: 10000;
     &__background {
         transform: rotate(-45deg);
         @include wh(70px, 70px);
