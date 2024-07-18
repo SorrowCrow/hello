@@ -15,6 +15,7 @@
 
 <script>
 export default {
+    // eslint-disable-next-line
     name: "Slide",
     props: {
         say: String,
@@ -24,11 +25,12 @@ export default {
     },
     computed: {
         cssProps() {
-            return "background-image: url(" + require("@/assets/"+this.url) + ")";
+            return (
+                "background-image: url(" + require("@/assets/" + this.url) + ")"
+            );
         },
     },
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

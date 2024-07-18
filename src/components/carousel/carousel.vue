@@ -47,6 +47,7 @@ $(document).ready(function () {
 });
 
 export default {
+    // eslint-disable-next-line
     name: "carousel",
     components: {
         Slide,
